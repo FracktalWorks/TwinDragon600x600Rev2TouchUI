@@ -64,7 +64,7 @@ plugins:
   softwareupdate:
     _config_version: 9
     checks:
-      TwinDragon600CM4TouchUI:
+      TwinDragon600Rev2TouchUI:
         disabled: false
       pi_support:
         disabled: true

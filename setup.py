@@ -6,14 +6,14 @@ import versioneer
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "TwinDragon600x600CM4TouchUI"
+plugin_identifier = "TwinDragon600x600Rev2TouchUI"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_TwinDragon600x600CM4TouchUI"
+plugin_package = "octoprint_TwinDragon600x600Rev2TouchUI"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "Octoprint-TwinDragon600x600CM4TouchUI"
+plugin_name = "Octoprint-TwinDragon600x600Rev2TouchUI"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
 plugin_version = versioneer.get_version()   # replaced by versioneer
@@ -29,7 +29,7 @@ plugin_author = "Fracktal Works"
 plugin_author_email = "support@fracktal.in"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/FracktalWorks/TwinDragon600x600CM4TouchUI"
+plugin_url = "https://github.com/FracktalWorks/TwinDragon600x600Rev2TouchUI"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"

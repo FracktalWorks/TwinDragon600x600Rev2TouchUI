@@ -37,7 +37,7 @@ del get_versions
 # 			self.is_running = False
 
 
-class TwinDragon600x600CM4TouchUI(octoprint.plugin.StartupPlugin):
+class TwinDragon600x600Rev2TouchUI(octoprint.plugin.StartupPlugin):
     def on_after_startup(self):
         # self.resetInetrval = int(self._settings.get(["resetInetrval"]))
         self._logger.info("TouchUI Plugin Started")
@@ -46,29 +46,29 @@ class TwinDragon600x600CM4TouchUI(octoprint.plugin.StartupPlugin):
 
     def get_update_information(self):
         return dict(
-            TwinDragon600x600CM4TouchUI=dict(
-                displayName="TwinDragon600x600CM4TouchUI",
+            TwinDragon600x600Rev2TouchUI=dict(
+                displayName="TwinDragon600x600Rev2TouchUI",
                 displayVersion=self._plugin_version,
                 # version check: github repository
                 type="github_release",
                 user="FracktalWorks",
-                repo="TwinDragon600x600CM4TouchUI",
+                repo="TwinDragon600x600Rev2TouchUI",
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/FracktalWorks/TwinDragon600x600CM4TouchUI/archive/{target_version}.zip"
+                pip="https://github.com/FracktalWorks/TwinDragon600x600Rev2TouchUI/archive/{target_version}.zip"
             )
         )
 
 
-__plugin_name__ = "TwinDragon600x600CM4TouchUI"
+__plugin_name__ = "TwinDragon600x600Rev2TouchUI"
 __plugin_version__ = __version__
 __plugin_pythoncompat__ = ">=3,<4"
 
 
 def __plugin_load__():
     global __plugin_implementation__
-    __plugin_implementation__ = TwinDragon600x600CM4TouchUI()
+    __plugin_implementation__ = TwinDragon600x600Rev2TouchUI()
 
     global __plugin_hooks__
     __plugin_hooks__ = {

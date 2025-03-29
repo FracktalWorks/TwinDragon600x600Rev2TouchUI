@@ -1,1 +1,1 @@
-# TwinDragon600x600CM4TouchUI
+# TwinDragon600x600Rev2TouchUI
