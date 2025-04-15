@@ -161,7 +161,6 @@ QStatusBar::item {
      <font>
       <family>Gotham</family>
       <pointsize>16</pointsize>
-      <weight>50</weight>
       <bold>false</bold>
      </font>
     </property>
@@ -176,7 +175,7 @@ QStatusBar::item {
 background-color: rgb(40, 40, 40);</string>
     </property>
     <property name="currentIndex">
-     <number>14</number>
+     <number>16</number>
     </property>
     <widget class="QWidget" name="loadingPage">
      <widget class="QLabel" name="LoadingLabel">
@@ -456,7 +455,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -489,7 +487,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -513,7 +510,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -589,7 +585,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -659,7 +654,6 @@ QProgressBar {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -693,7 +687,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -770,7 +763,6 @@ QProgressBar {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -801,7 +793,6 @@ background-color: rgba(0, 0, 0, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -832,7 +823,6 @@ background-color: rgba(0, 0, 0, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -936,7 +926,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
         <stylestrategy>PreferAntialias</stylestrategy>
@@ -1015,7 +1004,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -1122,7 +1110,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -1153,7 +1140,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -1181,7 +1167,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -1212,7 +1197,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -1291,7 +1275,6 @@ QProgressBar {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -1379,7 +1362,6 @@ background-color: rgba(0, 0, 0, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -1415,7 +1397,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -1443,7 +1424,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -2072,7 +2052,7 @@ QScrollBar::down-arrow:vertical {
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>263</width>
+         <width>719</width>
          <height>900</height>
         </rect>
        </property>
@@ -2822,7 +2802,6 @@ QComboBox QAbstractItemView {
        <font>
         <family>MS Shell Dlg 2</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -2916,7 +2895,6 @@ QPushButton:focus {
         <font>
          <family>MS Shell Dlg 2</family>
          <pointsize>16</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -2971,7 +2949,6 @@ QPushButton:focus {
         <font>
          <family>MS Shell Dlg 2</family>
          <pointsize>16</pointsize>
-         <weight>50</weight>
          <bold>false</bold>
         </font>
        </property>
@@ -3001,7 +2978,6 @@ QPushButton:focus {
         <font>
          <family>MS Shell Dlg 2</family>
          <pointsize>16</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3059,7 +3035,6 @@ QPushButton:focus {
         <font>
          <family>MS Shell Dlg 2</family>
          <pointsize>16</pointsize>
-         <weight>50</weight>
          <bold>false</bold>
         </font>
        </property>
@@ -3086,7 +3061,6 @@ QPushButton:focus {
         <font>
          <family>MS Shell Dlg 2</family>
          <pointsize>16</pointsize>
-         <weight>75</weight>
          <bold>true</bold>
         </font>
        </property>
@@ -3141,7 +3115,6 @@ QPushButton:focus {
         <font>
          <family>MS Shell Dlg 2</family>
          <pointsize>16</pointsize>
-         <weight>50</weight>
          <bold>false</bold>
         </font>
        </property>
@@ -3225,7 +3198,6 @@ QPushButton:focus {
        <font>
         <family>MS Shell Dlg 2</family>
         <pointsize>18</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -3418,7 +3390,6 @@ QComboBox QAbstractItemView {
        <font>
         <family>Gotham Light</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -3442,7 +3413,6 @@ QComboBox QAbstractItemView {
        <font>
         <family>Gotham Light</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4479,7 +4449,6 @@ QComboBox QAbstractItemView {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4505,7 +4474,6 @@ QComboBox QAbstractItemView {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4530,7 +4498,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4555,7 +4522,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4580,7 +4546,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4605,7 +4570,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4630,7 +4594,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4723,7 +4686,6 @@ QPushButton:default {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4748,7 +4710,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4773,7 +4734,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4798,7 +4758,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4823,7 +4782,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -4848,7 +4806,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -5169,8 +5126,11 @@ background: none;
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Gotham'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Software Update Starting, Please Wait....&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
@@ -5251,8 +5211,11 @@ background: none;
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:20pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gotham'; font-size:10pt;&quot;&gt;Firmware Update Starting, Please Wait....&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
@@ -5343,7 +5306,6 @@ QPushButton:default {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -5427,7 +5389,7 @@ QPushButton:default {
        <rect>
         <x>0</x>
         <y>200</y>
-        <width>361</width>
+        <width>351</width>
         <height>141</height>
        </rect>
       </property>
@@ -5845,7 +5807,6 @@ Calibration</string>
        <font>
         <family>Gotham</family>
         <pointsize>18</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -5869,7 +5830,6 @@ Calibration</string>
        <font>
         <family>Gotham</family>
         <pointsize>10</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -5899,7 +5859,6 @@ Calibration</string>
        <font>
         <family>Gotham Medium</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -5932,7 +5891,6 @@ Calibration</string>
        <font>
         <family>Gotham</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -5956,7 +5914,6 @@ Calibration</string>
        <font>
         <family>Gotham Medium</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -5989,7 +5946,6 @@ Calibration</string>
        <font>
         <family>Gotham</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -6308,7 +6264,6 @@ QComboBox QAbstractItemView {
        <font>
         <family>Gotham</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -6339,7 +6294,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham Medium</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -6372,7 +6326,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>10</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -6506,7 +6459,6 @@ QPushButton:focus {
        <font>
         <family>Gotham Medium</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -6555,7 +6507,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>10</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -6585,7 +6536,6 @@ QPushButton:focus {
        <font>
         <family>Gotham Medium</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -6964,7 +6914,6 @@ QPushButton:default {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -6988,7 +6937,6 @@ QPushButton:default {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -7084,7 +7032,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -7425,7 +7372,6 @@ QDoubleSpinBox::down-button:pressed {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -7611,7 +7557,6 @@ QDoubleSpinBox::down-button:pressed {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -7635,7 +7580,6 @@ QDoubleSpinBox::down-button:pressed {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -7833,7 +7777,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -7962,7 +7905,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8107,7 +8049,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8252,7 +8193,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8397,7 +8337,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8572,7 +8511,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8599,7 +8537,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8847,7 +8784,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8874,7 +8810,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8919,7 +8854,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -8996,7 +8930,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9091,7 +9024,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9168,7 +9100,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9509,7 +9440,6 @@ QPushButton:focus {
        <font>
         <family>MS Shell Dlg 2</family>
         <pointsize>10</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9536,7 +9466,6 @@ QPushButton:focus {
        <font>
         <family>MS Shell Dlg 2</family>
         <pointsize>10</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9563,7 +9492,6 @@ QPushButton:focus {
        <font>
         <family>MS Shell Dlg 2</family>
         <pointsize>10</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9608,7 +9536,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9713,7 +9640,6 @@ QDoubleSpinBox::down-button:pressed {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9769,7 +9695,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9802,7 +9727,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9870,7 +9794,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9900,7 +9823,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -9927,7 +9849,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -10017,7 +9938,6 @@ QPushButton:default {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -11068,7 +10988,6 @@ QListView::item:selected:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
         <strikeout>false</strikeout>
@@ -11228,7 +11147,6 @@ QToolButton:default {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -11256,7 +11174,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -11284,7 +11201,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -11312,7 +11228,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -11340,7 +11255,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -11364,7 +11278,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -11388,7 +11301,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -11416,7 +11328,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -11441,7 +11352,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -11469,7 +11379,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -11651,7 +11560,6 @@ QPushButton:default {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -11897,7 +11805,6 @@ QTabBar:focus {
          <font>
           <family>Gotham Light</family>
           <pointsize>15</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -12226,7 +12133,6 @@ QPushButton:focus {
          <font>
           <family>Gotham Light</family>
           <pointsize>15</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -12267,7 +12173,6 @@ background-color: rgba(255, 255, 255, 0);</string>
          <font>
           <family>Gotham Light</family>
           <pointsize>14</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -12291,7 +12196,6 @@ background-color: rgba(255, 255, 255, 0);</string>
          <font>
           <family>Gotham Light</family>
           <pointsize>14</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -14063,7 +13967,6 @@ QPushButton:focus {
          <font>
           <family>MS Shell Dlg 2</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -14087,7 +13990,6 @@ QPushButton:focus {
          <font>
           <family>MS Shell Dlg 2</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -14256,7 +14158,6 @@ QPushButton:focus {
          <font>
           <family>MS Shell Dlg 2</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -14280,7 +14181,6 @@ QPushButton:focus {
          <font>
           <family>MS Shell Dlg 2</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -14566,7 +14466,6 @@ QSpinBox::down-button:pressed {
          <font>
           <family>Gotham</family>
           <pointsize>16</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -14797,7 +14696,6 @@ QPushButton:default {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15196,7 +15094,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15220,7 +15117,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
         <stylestrategy>PreferAntialias</stylestrategy>
@@ -15274,7 +15170,6 @@ QProgressBar {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15382,7 +15277,6 @@ QPushButton:focus {
        <font>
         <family>Gotham Light</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15407,7 +15301,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham Light</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15432,7 +15325,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham Light</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15564,7 +15456,6 @@ QPushButton:focus {
        <font>
         <family>Gotham Light</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15591,7 +15482,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15666,7 +15556,6 @@ QPushButton:focus {
        <font>
         <family>Gotham</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15691,7 +15580,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham Light</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15719,7 +15607,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham Light</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15749,7 +15636,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham Light</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15824,7 +15710,6 @@ QPushButton:focus {
        <font>
         <family>Gotham Light</family>
         <pointsize>16</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15849,7 +15734,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham Light</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
@@ -15877,7 +15761,6 @@ background-color: rgba(255, 255, 255, 0);</string>
        <font>
         <family>Gotham Light</family>
         <pointsize>14</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
        </font>
       </property>
