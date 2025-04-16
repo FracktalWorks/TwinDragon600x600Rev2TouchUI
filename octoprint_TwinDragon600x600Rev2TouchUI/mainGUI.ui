@@ -175,7 +175,7 @@ QStatusBar::item {
 background-color: rgb(40, 40, 40);</string>
     </property>
     <property name="currentIndex">
-     <number>29</number>
+     <number>40</number>
     </property>
     <widget class="QWidget" name="loadingPage">
      <widget class="QLabel" name="LoadingLabel">
@@ -15316,7 +15316,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>140</y>
+        <y>190</y>
         <width>771</width>
         <height>161</height>
        </rect>
@@ -15779,6 +15779,8 @@ background-color: rgba(255, 255, 255, 0);</string>
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="templates/resources_qt.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -1,0 +1,134 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>img/0Bars.png</file>
+    <file>img/1Bars.png</file>
+    <file>img/2Bars.png</file>
+    <file>img/3Bars.png</file>
+    <file>img/3d-cube.png</file>
+    <file>img/3d-printer.png</file>
+    <file>img/3d-printing.png</file>
+    <file>img/4Bars.png</file>
+    <file>img/0441ea5619b979bde781aa040943c208.gif</file>
+    <file>img/activeNozzle.png</file>
+    <file>img/add.png</file>
+    <file>img/Advanced Bed Leveling.png</file>
+    <file>img/arrows.png</file>
+    <file>img/arrows-1.png</file>
+    <file>img/arrows-2.png</file>
+    <file>img/arrows-3.png</file>
+    <file>img/arrows-4.png</file>
+    <file>img/arrows-5.png</file>
+    <file>img/arrows-6.png</file>
+    <file>img/arrows-7.png</file>
+    <file>img/arrows-8.png</file>
+    <file>img/arrows-9.png</file>
+    <file>img/back.png</file>
+    <file>img/back-arrow.png</file>
+    <file>img/backspace-arrow.png</file>
+    <file>img/Basic Bed Leveling.png</file>
+    <file>img/bed.png</file>
+    <file>img/blank-check-box.png</file>
+    <file>img/camera.png</file>
+    <file>img/cancel.png</file>
+    <file>img/caps_lock_pinned.png</file>
+    <file>img/caps-lock-button.png</file>
+    <file>img/cart.png</file>
+    <file>img/chamberHeatIcon.png</file>
+    <file>img/changeFilament.png</file>
+    <file>img/changeFilament2.png</file>
+    <file>img/check-box.png</file>
+    <file>img/check-mark.png</file>
+    <file>img/chevron-pointing-to-the-left.png</file>
+    <file>img/computer-fan-square-tool.png</file>
+    <file>img/delete.png</file>
+    <file>img/doorLock.png</file>
+    <file>img/doorUnlock.png</file>
+    <file>img/download.png</file>
+    <file>img/earth-globe.png</file>
+    <file>img/error.png</file>
+    <file>img/exclamation-mark.png</file>
+    <file>img/fan-black-silhouette.png</file>
+    <file>img/fan-black-silhouette-off.png</file>
+    <file>img/FeedRate.png</file>
+    <file>img/FeedRate_Selected.png</file>
+    <file>img/filamentSensorOff.png</file>
+    <file>img/filamentSensorOn.png</file>
+    <file>img/File.png</file>
+    <file>img/folder.png</file>
+    <file>img/Fracktal Logo.png</file>
+    <file>img/fracktal.png</file>
+    <file>img/heightCaliberation.gif</file>
+    <file>img/home-icon-silhouette.png</file>
+    <file>img/house.png</file>
+    <file>img/icon.png</file>
+    <file>img/IDEX.png</file>
+    <file>img/information.png</file>
+    <file>img/Input Shaper.png</file>
+    <file>img/list.png</file>
+    <file>img/load.png</file>
+    <file>img/loader1.gif</file>
+    <file>img/loading.gif</file>
+    <file>img/loading-90.gif</file>
+    <file>img/lockCenter.gif</file>
+    <file>img/lockLeft.gif</file>
+    <file>img/lockRight.gif</file>
+    <file>img/magic-wand.png</file>
+    <file>img/menu.png</file>
+    <file>img/Motion.png</file>
+    <file>img/Motion_Selected.png</file>
+    <file>img/motor.png</file>
+    <file>img/network.png</file>
+    <file>img/next.png</file>
+    <file>img/next-1.png</file>
+    <file>img/Nozzle Offset Icon.png</file>
+    <file>img/Nozzle Offset.png</file>
+    <file>img/Nozzle.png</file>
+    <file>img/NozzleActive.gif</file>
+    <file>img/NozzleSelect.png</file>
+    <file>img/NozzleSelect_0.png</file>
+    <file>img/NozzleSelect_1.png</file>
+    <file>img/pause.png</file>
+    <file>img/pause-button.png</file>
+    <file>img/pie-chart.png</file>
+    <file>img/play.png</file>
+    <file>img/play-button.png</file>
+    <file>img/PrintBase.png</file>
+    <file>img/printer.png</file>
+    <file>img/printer2.png</file>
+    <file>img/reload.png</file>
+    <file>img/remove.png</file>
+    <file>img/right-chevron.png</file>
+    <file>img/settings.png</file>
+    <file>img/settings-1.png</file>
+    <file>img/snowflake.png</file>
+    <file>img/Splash BG.png</file>
+    <file>img/splash.png</file>
+    <file>img/splash_2.png</file>
+    <file>img/Spool.png</file>
+    <file>img/Spool_Selected.png</file>
+    <file>img/spoolHeating.png</file>
+    <file>img/stop.png</file>
+    <file>img/stop-1.png</file>
+    <file>img/success.png</file>
+    <file>img/TD600_Z_Wobble_Test.gcode</file>
+    <file>img/thermometer.png</file>
+    <file>img/thermometer_Selected.png</file>
+    <file>img/thumbnail.png</file>
+    <file>img/Tool Offset Icon.png</file>
+    <file>img/Tool Z Offset Icon.png</file>
+    <file>img/unload.png</file>
+    <file>img/unlockAll.gif</file>
+    <file>img/unlockLeft.gif</file>
+    <file>img/update-arrows.png</file>
+    <file>img/usb.png</file>
+    <file>img/verification-mark.png</file>
+    <file>img/video-player-stop-button.png</file>
+    <file>img/wifi.png</file>
+    <file>img/wifi-1.png</file>
+    <file>img/WIFI-Icon.gif</file>
+    <file>img/wifi-signal.png</file>
+    <file>img/wrench.png</file>
+    <file>img/wrench_selected.png</file>
+  </qresource>
+  <qresource prefix="images"/>
+</RCC>

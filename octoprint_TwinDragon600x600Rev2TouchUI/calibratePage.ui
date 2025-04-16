@@ -490,7 +490,7 @@ QPushButton:default {
      border: 1px solid rgb(87, 87, 87);
 	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));
 
-
+url(:/icons/img/Tool Offset Icon.png)
 
 }
 
@@ -529,6 +529,8 @@ QToolButton:focus {
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="templates/resources_qt.qrc"/>
+ </resources>
  <connections/>
 </ui>
