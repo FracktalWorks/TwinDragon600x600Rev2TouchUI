@@ -175,7 +175,7 @@ QStatusBar::item {
 background-color: rgb(40, 40, 40);</string>
     </property>
     <property name="currentIndex">
-     <number>40</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="loadingPage">
      <widget class="QLabel" name="LoadingLabel">
@@ -10072,8 +10072,8 @@ QPushButton:default {
      <widget class="QListWidget" name="fileListWidget">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>0</y>
+        <x>10</x>
+        <y>60</y>
         <width>591</width>
         <height>481</height>
        </rect>
