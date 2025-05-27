@@ -3162,6 +3162,12 @@ class QtWebsocket(QtCore.QThread):
         super(QtWebsocket, self).__init__()
         self.ws = None
         self.heartbeat_timer = None
+        self.reconnect_attempts = 0
+        self.max_reconnect_attempts = 100
+        self.reconnect_delay = 5  # seconds
+        self._initialize_websocket()
+
+    def _initialize_websocket(self):
         try:
             url = "ws://{}/sockjs/{:0>3d}/{}/websocket".format(
                 ip,  # host + port + prefix, but no protocol
@@ -3197,9 +3203,18 @@ class QtWebsocket(QtCore.QThread):
         logger.info("QtWebsocket.reestablish_connection started")
         try:
             self.__init__()
+            self.reconnect_attempts += 1
+            if self.reconnect_attempts > self.max_reconnect_attempts:
+                logger.error("Max reconnect attempts reached.")
+                return
+
+            self._initialize_websocket()
             self.start()
+            logger.info("Reconnection attempt {} succeeded.".format(self.reconnect_attempts))
         except Exception as e:
             logger.error("Error in QtWebsocket.reestablish_connection: {}".format(e))
+            dialog.WarningOk(self, "Error in QtWebsocket.reestablish_connection: {}".format(e), overlay=True)
+
     def send(self, data):
         logger.info("QtWebsocket.send started")
         try:
@@ -3252,12 +3267,17 @@ class QtWebsocket(QtCore.QThread):
             self.process(data)
 
     def on_open(self,ws):
+        logger.info("WebSocket connection opened")
+        self.reconnect_attempts = 0  # Reset reconnect attempts
         self.authenticate()
 
     def on_close(self, ws):
-        pass
+        self.reestablish_connection()
+        logger.info("WebSocket connection closed. Attempting to reconnect...")
+        
 
     def on_error(self, ws, error):
+        self.reestablish_connection()
         logger.error("Error in QtWebsocket: {}".format(error))
 
     @run_async
