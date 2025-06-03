@@ -105,8 +105,8 @@ calibrationPosition = {'X1': 63, 'Y1': 67, #110, 18
                        'X4': 303, 'Y4': 20
                        }
 
-tool0PurgePosition = {'X': -27, 'Y': -112}
-tool1PurgePosition = {'X': 648, 'Y': -112}
+tool0PurgePosition = {'X': 0, 'Y': -110}
+tool1PurgePosition = {'X': 720, 'Y': -110}
 
 ptfeTubeLength = 2400 #2400 for 600x600, 1500 for 600x300 keep as multiples of 300 only
 
