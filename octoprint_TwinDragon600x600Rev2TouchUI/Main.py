@@ -2008,8 +2008,8 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
                 else:
                     self.tool0TempBar.setMaximum(temperature['tool0Actual'])
                 self.tool0TempBar.setValue(temperature['tool0Actual'])
-                self.tool0ActualTemperature.setText(str(int(temperature['tool0Actual'])))  # + unichr(176)
                 self.tool0TargetTemperature.setText(str(int(temperature['tool0Target'])))
+                self.tool0ActualTemperature.setText(str(float(temperature['tool0Actual'])))  # + unichr(176)
 
                 if temperature['tool1Target'] == 0:
                     self.tool1TempBar.setMaximum(300)
@@ -2020,8 +2020,8 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
                 else:
                     self.tool1TempBar.setMaximum(temperature['tool1Actual'])
                 self.tool1TempBar.setValue(temperature['tool1Actual'])
-                self.tool1ActualTemperature.setText(str(int(temperature['tool1Actual'])))  # + unichr(176)
                 self.tool1TargetTemperature.setText(str(int(temperature['tool1Target'])))
+                self.tool1ActualTemperature.setText(str(float(temperature['tool1Actual'])))  # + unichr(176)
 
                 if temperature['bedTarget'] == 0:
                     self.bedTempBar.setMaximum(150)
@@ -2099,21 +2099,21 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
                 self.playPauseButton.setDisabled(False)  # if file available, make play buttom visible
                 self.fileName.setText(file['job']['file']['name'])
                 self.currentFile = file['job']['file']['name']
-                if file['progress']['printTime'] is None:
-                    self.printTime.setText("-")
-                else:
+                if file['progress']['printTime'] is not None:
                     m, s = divmod(file['progress']['printTime'], 60)
                     h, m = divmod(m, 60)
                     d, h = divmod(h, 24)
                     self.printTime.setText("%d:%d:%02d:%02d" % (d, h, m, s))
-
-                if file['progress']['printTimeLeft'] is None:
-                    self.timeLeft.setText("-")
                 else:
+                    self.printTime.setText('-')
+
+                if file['progress']['printTimeLeft'] is not None:
                     m, s = divmod(file['progress']['printTimeLeft'], 60)
                     h, m = divmod(m, 60)
                     d, h = divmod(h, 24)
                     self.timeLeft.setText("%d:%d:%02d:%02d" % (d, h, m, s))
+                else:
+                    self.timeLeft.setText('-')
 
                 if file['progress']['completion'] is None:
                     self.printProgressBar.setValue(0)
