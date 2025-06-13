@@ -2434,7 +2434,7 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
     def showPrinterError(self, msg='Printer error, Check Terminal', overlay=False):
         logger.info("MainUiClass.showPrinterError started")
         try:
-             if any(error in msg for error in
+            if any(error in msg for error in
                    ["Can not update MCU","Error loading template", "Must home axis first", "probe", "Error during homing move", "still triggered after retract", "'mcu' must be specified", "Heater heater_bed not heating at expected rate", "Heater extruder not heating at expected rate", "Heater extruder1 not heating at expected rate"]):
                 logger.error("CRITICAL ERROR SHUTDOWN NEEDED")
                 if self.printerStatusText in ["Starting","Printing","Paused"]:
