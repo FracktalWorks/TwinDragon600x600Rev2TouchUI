@@ -2458,12 +2458,11 @@ class MainUiClass(QtWidgets.QMainWindow, mainGUI.Ui_MainWindow):
                         octopiclient.gcode(command='RESTART')
                         if dialog.WarningOk(self, msg, overlay=overlay):
                             self.dialogShown = False
-
-            else:
-                if not self.dialogShown:
-                    self.dialogShown = True
-                    if dialog.WarningOk(self, msg, overlay=overlay):
-                        self.dialogShown = False
+            # This block should be OUTSIDE the above if/else
+            if not self.dialogShown:
+                self.dialogShown = True
+                if dialog.WarningOk(self, msg, overlay=overlay):
+                    self.dialogShown = False
 
         except Exception as e:
             logger.error("Error in MainUiClass.showPrinterError: {}".format(e))
